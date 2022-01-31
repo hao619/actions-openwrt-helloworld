@@ -18,3 +18,9 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 
 # Lienol/openwrt-package
 #sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
+
+echo "LINUX_VERSION-5.4 = .108
+LINUX_KERNEL_MD5SUM-5.4.108 = de5118715720cee96ed40afd33ab267d" > include/kernel-5.4
+
+echo "KERNEL_PATCHVER:=5.4
+KERNEL_TESTING_PATCHVER:=5.4" >> target/linux/x86/Makefile
