@@ -17,6 +17,9 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 #echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 echo 'src-git ledesoft https://github.com/koolshare/ledesoft.git' >>feeds.conf.default
 
+# luci-theme-infinityfreedom
+echo 'src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git' >>feeds.conf.default
+
 # Lienol/openwrt-package
 #sed -i '$a src-git lienol https://github.com/Lancenas/lienol-openwrt-package.git' feeds.conf.default
 
