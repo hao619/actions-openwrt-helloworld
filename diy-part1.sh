@@ -24,3 +24,6 @@ LINUX_KERNEL_MD5SUM-5.4.108 = de5118715720cee96ed40afd33ab267d" > include/kernel
 
 echo "KERNEL_PATCHVER:=5.4
 KERNEL_TESTING_PATCHVER:=5.4" >> target/linux/x86/Makefile
+
+mkdir ./dl/
+wget https://mirrors.edge.kernel.org/pub/linux/kernel/v5.x/linux-5.4.108.tar.xz -o ./dl/linux-5.4.108.tar.xz
